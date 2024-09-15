@@ -49,6 +49,8 @@ Após executar o script, você verá um menu com as seguintes opções:
 - **Formato Monetário**: Adicionado símbolo R$ para maior clareza.
 - **Mensagem de Encerramento**: Adicionada frase "Saindo do sistema" ao finalizar.
 - **Adição de Comentários**: Comentários adicionados para tornar o código mais fácil de entender e manter.
+- **Adição do Menu após Wile True**: Exibição do menu após Wile True para que o mesmo seja exibido continuamente ao usuário.
+
 
 ## ✔️Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para fazer um fork deste repositório e enviar um pull request com melhorias ou novas funcionalidades.
