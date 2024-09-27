@@ -79,7 +79,7 @@ Após executar o script, você verá um menu com as seguintes opções:
 4. **Extrato**: Mostra o histórico de transações e o saldo atual. 
 5. **Sair**: Finaliza o programa, exibindo uma mensagem de encerramento. 
 
-**VERSÃO 03**
+# VERSÃO 03
 
 # Regras para criação da terceira versão do Projeto:
 
