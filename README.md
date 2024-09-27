@@ -14,7 +14,7 @@ Este projeto visa implementar um sistema bancário simplificado utilizando Pytho
 ### ⚙️Como Executar o Projeto
 - Clone o Repositório: git clone TRCarminatiTI/Criando-um-sistema-bancario-com-Python-V1: Criando um sistema bancário com Python V1 (github.com)
 - cd desafio-dio-criando-um-sistema-bancario-com-python 
-- Execute o Script: Certifique-se de ter o Python 3 instalado e execute o script principal: python desafio.py
+- Execute o Script: Certifique-se de ter o Python 3 instalado e execute o script.
 
 # VERSÃO 01
 
@@ -78,6 +78,47 @@ Após executar o script, você verá um menu com as seguintes opções:
 3. **Sacar**: Subtrai um valor da conta, se as condições permitirem. 
 4. **Extrato**: Mostra o histórico de transações e o saldo atual. 
 5. **Sair**: Finaliza o programa, exibindo uma mensagem de encerramento. 
+
+**VERSÃO 03**
+
+# Regras para criação da terceira versão do Projeto:
+
+Atualizar a implementação do sistema bancário, para armazenar os dados de clientes e contas bancárias em objetos ao invés de dicionários. O código deve seguir o modelo de UML a seguir:
+
+https://github.com/TRCarminatiTI/Criando-um-sistema-bancario-com-Python-V1/issues/2#issue-2551896837
+
+Desafio Extra: Atualizar os métodos que tratam a opções do menu, para funiconarem com as classes modeladas.
+
+## 💡Melhorias Implementadas
+-**Banco de Dados: O novo código utiliza SQLite para armazenar informações de clientes e contas. 
+-**Classes: O uso de classes (Cliente e Conta) para melhorar a organização do código, encapsulando comportamentos e propriedades relacionados.
+-**Histórico de Transações: A nova classe Conta agora mantém um histórico das transações, permitindo um extrato mais detalhado, separado por cliente e tipo de conta.
+-**Cadastro Dinâmico: O sistema permite que novos clientes sejam cadastrados diretamente no banco de dados.
+-**Validação de CPF: Verifica se o CPF já está cadastrado antes de permitir o registro.
+-**Limitação de Transações: O limite de transações diárias é gerenciado dentro da classe Conta, centralizando a lógica e evitando duplicação de código.
+-**Métodos Específicos: As operações de depósito e saque agora são métodos específicos da classe Conta.
+-**Menu Interativo: A interface do usuário foi aprimorada, permitindo uma navegação mais intuitiva entre as opções disponíveis.
+_**Geração de Número de Conta: Um método dedicado para gerar números de conta garante que cada conta tenha um número único.
+_**Listagem de Contas: O sistema permite listar todas as contas de um cliente.
+_**Separação de Responsabilidades: A lógica de negócio foi separada em métodos apropriados dentro das classes.
+_**Tratamento de Exceções: Tratamento de exceções para entradas inválidas.
+
+### ⚙️ Como usar o Sistema
+Após executar o script, você verá: 
+1. **Tela de boas vindas**: Aparece a tela de boas vindas do banco e a solicitação para o cliente inserir o cartão ou digitar o CPF.
+2. **Identificação cliente**: Aparece nome e CPF do cliente cadastrado se houver, senão habilita para a criação de um novo cliente.
+3. **Menu**: Habilita a opção menu para o cliente selecionar a opção
+4. **Depositar**: Adiciona um valor à conta 
+5. **Sacar**: Subtrai um valor da conta, se as condições permitirem. 
+6. **Extrato**: Mostra o histórico de transações e o saldo atual de cada cliente e tipo de conta
+7. **Nova Conta**: Cria uma nova conta
+8. **Listar contas**: Lista as contas existentes para aquele cliente 
+9. **Novo usuário**: Cria novo usuário
+10. **Sair**: Finaliza o programa, exibindo uma mensagem de encerramento.
+11. Exemplo de cliente cadastrados:
+    1) Ana Maria de Souza Albuquerque - CPF: 123456789-10
+    2) João de Melo - CPF: 789456123-10
+    3) Regina Almeida - CPF: 456123789-10
 
 ## ✔️Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para fazer um fork deste repositório e enviar um pull request com melhorias ou novas funcionalidades.
