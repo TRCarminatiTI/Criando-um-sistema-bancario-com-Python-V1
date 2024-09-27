@@ -1,0 +1,16 @@
+{
+    "clientes": [
+        {
+            "nome": "Ana Maria de Souza Albuquerque",
+            "cpf": "123456789-10",
+            "data_nascimento": "10-10-2000",
+            "endereco": "Avenida Jo\u00e3o Luiz 100",
+            "cidade": "S\u00e3o Paulo",
+            "cep": "12350-000",
+            "estado": "SP",
+            "telefone": "11 99876-5241",
+            "email": "Anamaria@gmail.com",
+            "contas": []
+        }
+    ]
+}
