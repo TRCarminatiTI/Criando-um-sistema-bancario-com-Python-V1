@@ -16,9 +16,9 @@ Este projeto visa implementar um sistema bancário simplificado utilizando Pytho
 - cd desafio-dio-criando-um-sistema-bancario-com-python 
 - Execute o Script: Certifique-se de ter o Python 3 instalado e execute o script.
 
-**VERSÃO 01**
+# VERSÃO 01
 
-# Regras para Criação do Projeto:
+## Regras para Criação do Projeto:
 **💰Depósito**
 - Permite depósitos de valores positivos.
 - Registra o valor do depósito no extrato.
@@ -51,9 +51,9 @@ Após executar o script, você verá um menu com as seguintes opções:
 3. **Extrato**: Mostra o histórico de transações e o saldo atual. 
 4. **Sair**: Finaliza o programa, exibindo uma mensagem de encerramento. 
 
-**VERSÃO 02**
+# VERSÃO 02
 
-# Regras para criação da segunda versão do projeto:
+### Regras para criação da segunda versão do projeto:
 
 **💰Depósito** e **💶Saque**
 - Estabelece limite de 10 transações diárias para uma conta
